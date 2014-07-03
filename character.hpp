@@ -1,3 +1,6 @@
+#ifndef CHARACTER_HPP
+#define CHARACTER_HPP
+
 /* README :
  * Everything that concern the playable character.
  * Do not mistake with npc.hpp (non-playble character)
@@ -47,3 +50,5 @@ class Character
 	
 
 };
+
+#endif /*CHARACTER_HPP*/
