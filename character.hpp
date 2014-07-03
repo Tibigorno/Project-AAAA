@@ -16,6 +16,7 @@ class Character
 	int hp, mp, sp;                     //Current points.
 	int strength, knowledge, dexterity; //Offenvive stats.
 	int vitality, wisdom, agility;      //Defenvive stats.
+	//bool isInPlateformViewArea, isInSkyViewArea;
 	
 	/*Stuff*/	/*
 	Weapon weapon_left, weapon_right;
