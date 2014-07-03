@@ -1,6 +1,6 @@
 #include "event.hpp"
 
-void mainEventHandler(sf::Window window){
+void mainEventHandler(sf::Window &window){
 
 	    sf::Event event;
         while (window.pollEvent(event))

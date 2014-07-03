@@ -6,7 +6,8 @@
 int main()
 {
 	
-    sf::Window window(sf::VideoMode::getDesktopMode(), "Project AAAA");
+    sf::Window window;
+    window.create(sf::VideoMode::getDesktopMode(), "Project AAAA");
 
     while (window.isOpen())
     {

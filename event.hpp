@@ -7,6 +7,6 @@
 
 #include <SFML/Graphics.hpp>
 
-void mainEventHandler(sf::Window);
+void mainEventHandler(sf::Window &window);
 
 #endif /*EVENT_HPP*/
