@@ -7,15 +7,12 @@ int main()
 {
 	
     sf::RenderWindow window;
-    window.create(sf::VideoMode::getDesktopMode(), "Project AAAA");
+    window.create(sf::VideoMode::getDesktopMode(), "Project AAAA",sf::Style::Fullscreen);
 
     while (window.isOpen())
     {
-		
+		window.clear(sf::Color::White);	
 		mainEventHandler(window);
-		
-		window.clear(sf::Color::White);
-		
 		window.display(); 
     }
 

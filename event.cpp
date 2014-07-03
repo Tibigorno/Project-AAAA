@@ -2,6 +2,12 @@
 
 
 static void keyPressedHandler(sf::Event event){
+	switch(event.key.code){
+		case sf::Keyboard::Escape:
+			exit(0);
+			break;
+		default: break;
+	}
 	
 }
 
