@@ -3,8 +3,7 @@
 
 int main()
 {
-	sf::VideoMode myvm = sf::VideoMode(200, 200);
-    sf::RenderWindow window(myvm, "SFML works!");
+    sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "SFML works!");
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Green);
 
