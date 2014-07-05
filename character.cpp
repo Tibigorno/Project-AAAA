@@ -1,7 +1,7 @@
 #include "character.hpp"
 
 void moveLeft(){
-	/*Load image*/
-	/*Move*/
-	/*Print*/
+    /*Load image*/
+    /*Move*/
+    /*Print*/
 }
